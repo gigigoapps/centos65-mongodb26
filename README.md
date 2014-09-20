@@ -2,7 +2,7 @@
 
 This project uses Vagrant to mount and deploy a test environment with Centos 6.5 64 bits and MongoDB 2.6
 
-## Requisites
+## Initial Requirements
 
 ### You will need:
 
