@@ -17,7 +17,7 @@ node 'centosmongo' {
         server_package_name => 'mongodb-org'
     }->
     class {'::mongodb::server': 
-        nojournal => true,
+        journal => true,
     } ->
     class {'::mongodb::client': }
 }
